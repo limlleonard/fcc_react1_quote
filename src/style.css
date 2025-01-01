@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    /*vertical*/
+    justify-content: center;
+    /*horizontal*/
+    min-height: 100vh;
+    background-color: #777;
+    overflow: hidden;
+}
+
+#quote-box {
+    background-color: #ccc;
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+}
+#quote-box>* {
+    margin-bottom: 1em;
+    /* border: 1px solid red; */
+}
+#text {
+    font-size: 1.5em;
+}
+#author {
+    text-align: right;
+}
+#ctn-btn {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+#tweet-quote {
+    padding: 1em;
+    background-color: #eee;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+}
+#new-quote {
+    padding: 1em;
+    font-size: 1.1em;
+}
