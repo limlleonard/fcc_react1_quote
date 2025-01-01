@@ -40,6 +40,7 @@ body {
     text-decoration: none;
     color: black;
     border: 1px solid grey;
+    font-size: 1.1em;
 }
 #new-quote {
     padding: 1em;
